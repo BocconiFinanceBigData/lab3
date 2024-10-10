@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+yfinance = "*"
+statsmodels = "*"
+wordcloud = "*"
+nltk = "*"
+scikit-learn = "*"
+tensorflow = "*"
+seaborn = "*"
+transformers = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.9"
